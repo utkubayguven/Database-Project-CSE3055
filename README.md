@@ -23,4 +23,4 @@ Projeyi başlatın ve http://localhost:port/ adresine gidin.
 
 # Katkıda Bulunma
 
-Her türlü katkıda bulunmaya açığız! Lütfen bir sorun bildirin veya bir çekme isteği gönderin.
+Her türlü katkıda bulunmaya açığız! Lütfen bir sorun bildirin veya bir çekme isteği gönderin...
