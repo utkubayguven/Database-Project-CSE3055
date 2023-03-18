@@ -1,0 +1,60 @@
+﻿@page
+@model db.Pages.Discount.IndexModel
+@{
+}
+
+@foreach (var item in Model.listProducts)
+{
+	<tr>
+		<div id="showScroll" class="container">
+			<div class="receipt">
+				<h1 class="logo">%@item.Discountrate discount</h1>
+				<div class="transactionDetails">
+					Helped by: 3mercan
+				</div>
+				<div class="transactionDetails">
+					<div class="detail">1</div>
+					<div class="detail">@item.ProductName</div>
+					<div class="detail">@item.Price</div>
+				</div>
+				<div class="survey bold">
+					<p>Type #</p>
+					<p class="surveyID">@item.Type</p>
+				</div>
+				<div class="paymentDetails bold">
+					<div class="detail">TOTAL</div>
+					<div class="detail">@item.Price</div>
+				</div>
+				<div class="paymentDetails">
+					<div class="detail">DISCOUNT</div>
+					<div class="detail">@item.Discount</div>
+				</div>
+				<div class="paymentDetails">
+					<div class="detail">************3454</div>
+					<div class="detail">CH</div>
+				</div>
+				<div class="creditDetails">
+					<p>VISA CREDIT &nbsp;&nbsp;&nbsp;&nbsp; ****************</p>
+					<p>approved# 09773B</p>
+					<p>ref# 013589</p>
+					<p>tran type: SALE</p>
+					<p>AID: 30000000090755</p>
+					<p>TC: B7A2A4044AEE380A4</p>
+					<p>terminal: 69010003</p>
+					<p>no signature required</p>
+					<p>CVM: 1e0300</p>
+					<p>TMR(95): 008008/@item.ProductID</p>
+					<p>TS(9B): E900</p>
+				</div>
+		<td>@item.ProductID</td>
+		<td>@item.ProductName</td>
+		<td>@item.Price</td>
+		<td>@item.ProducerID</td>
+		<td>@item.Type</td>
+		<td>
+			<a class="btn btn-primary btn-sm" href="/Products/Edit?id=@item.ProductID">Edit</a>
+			<a class="btn btn-danger btn-sm" href="/Products/Remove?id=@item.ProductID">Delete</a>
+		</td>
+	</tr>
+}
+ 

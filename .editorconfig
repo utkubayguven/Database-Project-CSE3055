@@ -1,0 +1,875 @@
+﻿{
+  "courses": [
+    {
+      "CourseName": "Ataturk’s Principles and the History of Turkish Renovation I",
+      "CourseCode": "ATA121",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":6,"timeStart":"15","timeEnd":"17"}
+      ]
+      },
+    {
+      "CourseName": "Basic Chemistry",
+      "CourseCode": "CHEM1007",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":4,"timeStart":"11","timeEnd":"13"},
+          {"day":5,"timeStart":"9","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Introduction to Computer Eng.",
+      "CourseCode": "CSE1100",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"11","timeEnd":"12"},
+          {"day":2,"timeStart":"10","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Computer Programming I",
+      "CourseCode": "CSE1141",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"11","timeEnd":"13"},
+          {"day":2,"timeStart":"11","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Calculus I",
+      "CourseCode": "MATH1001",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"9","timeEnd":"11"},
+          {"day":3,"timeStart":"9","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Physics I",
+      "CourseCode": "PHYS1101",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"15","timeEnd":"16"},
+          {"day":4,"timeStart":"14","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "Physics Lab I",
+      "CourseCode": "PHYS1103",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"17","timeEnd":"19"}
+      ]
+    },
+    {
+      "CourseName": "Turkish Language I",
+      "CourseCode": "TRD121",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 1,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":6,"timeStart":"13","timeEnd":"15"}
+      ]
+    },
+    {
+      "CourseName": "Ataturk’s Principles and the History of Turkish Renovation II",
+      "CourseCode": "ATA122",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":6,"timeStart":"11","timeEnd":"13"}
+      ]
+    },
+    {
+      "CourseName": "Computer Programming II",
+      "CourseCode": "CSE1142",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        "CSE1141"
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"11","timeEnd":"13"},
+          {"day":2,"timeStart":"11","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Calculus II",
+      "CourseCode": "MATH1002",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"10","timeEnd":"12"},
+          {"day":2,"timeStart":"9","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Linear Algebra for Computer Engineering",
+      "CourseCode": "MATH2256",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"10","timeEnd":"11"},
+          {"day":4,"timeStart":"10","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Physics II",
+      "CourseCode": "PHYS1102",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":4,"timeStart":"14","timeEnd":"17"}
+      ]
+    },
+    {
+      "CourseName": "Physics Lab II",
+      "CourseCode": "PHYS1104",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"14","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "Turkish Language II",
+      "CourseCode": "TRD122",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":7,"timeStart":"10","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Non-Technical Elective - 1",
+      "CourseCode": "NTExxx",
+      "Credit": 3,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 2,
+      "courseType": "NTExxx",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":6,"timeStart":"14","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "CSE2023",
+      "CourseCode": "Discrete Computational Structures",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 3,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"12","timeEnd":"14"},
+          {"day":4,"timeStart":"13","timeEnd":"14"}
+      ]
+    },
+    {
+      "CourseName": "Data Structures",
+      "CourseCode": "CSE2225",
+      "Credit": 7,
+      "PrerequisiteCourseCodes": [
+        "CSE1142"
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 3,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"13","timeEnd":"15"},
+          {"day":3,"timeStart":"14","timeEnd":"14"}
+      ]
+    },
+    {
+      "CourseName": "Engineering Economy",
+      "CourseCode": "ECON2004",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 3,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"18","timeEnd":"20"}
+      ]
+    },
+    {
+      "CourseName": "Electric Circuits",
+      "CourseCode": "EE2031",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 3,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"13","timeEnd":"15"},
+          {"day":4,"timeStart":"14","timeEnd":"15"}
+      ]
+    },
+    {
+      "CourseName": "Differential Equations",
+      "CourseCode": "MATH2055",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 3,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":5,"timeStart":"16","timeEnd":"17"},
+          {"day":4,"timeStart":"16","timeEnd":"18"}
+      ]
+    },
+    {
+      "CourseName": "Numerical Methods",
+      "CourseCode": "MATH2059",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 3,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"13","timeEnd":"14"},
+          {"day":4,"timeStart":"14","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "Analysis of Algorithms",
+      "CourseCode": "CSE2246",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        "CSE2225"
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 4,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":4,"timeStart":"13","timeEnd":"14"},
+          {"day":5,"timeStart":"14","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "Systems Programming",
+      "CourseCode": "CSE2138",
+      "Credit": 7,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 4,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"14","timeEnd":"16"},
+          {"day":2,"timeStart":"13","timeEnd":"14"}
+      ]
+    },
+    {
+      "CourseName": "Principles of Programming Languages",
+      "CourseCode": "CSE2260",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 4,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":4,"timeStart":"9","timeEnd":"11"},
+          {"day":5,"timeStart":"9","timeEnd":"10"}
+      ]
+    },
+    {
+      "CourseName": "Electronics",
+      "CourseCode": "EE2032",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 4,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"14","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "Introduction to Probability and Statistics",
+      "CourseCode": "STAT2253",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 4,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"16","timeEnd":"17"},
+          {"day":2,"timeStart":"14","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "Summer Practice I",
+      "CourseCode": "CSE3000",
+      "Credit": 10,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 5,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0
+    },
+    {
+      "CourseName": "Digital Logic Design",
+      "CourseCode": "CSE3215",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 5,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"11","timeEnd":"12"},
+          {"day":3,"timeStart":"10","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Operating Systems",
+      "CourseCode": "CSE3033",
+      "Credit": 7,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 5,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"9","timeEnd":"10"},
+          {"day":5,"timeStart":"10","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Database Systems",
+      "CourseCode": "CSE3055",
+      "Credit": 7,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 5,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"9","timeEnd":"11"},
+          {"day":4,"timeStart":"9","timeEnd":"10"}
+      ]
+    },
+    {
+      "CourseName": "Object-Oriented Software Design",
+      "CourseCode": "CSE3063",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 5,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"9","timeEnd":"11"},
+          {"day":2,"timeStart":"11","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Modeling and Discrete Simulation",
+      "CourseCode": "IE3081",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 5,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":4,"timeStart":"10","timeEnd":"12"},
+          {"day":5,"timeStart":"9","timeEnd":"10"}
+      ]
+    },
+    {
+      "CourseName": "Computer Organization",
+      "CourseCode": "CSE3038",
+      "Credit": 7,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 6,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"10","timeEnd":"12"},
+          {"day":4,"timeStart":"11","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Software Engineering",
+      "CourseCode": "CSE3044",
+      "Credit": 7,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 6,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"9","timeEnd":"10"},
+          {"day":4,"timeStart":"9","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Introduction to Signals and Systems",
+      "CourseCode": "CSE3048",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 6,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"11","timeEnd":"13"},
+          {"day":4,"timeStart":"12","timeEnd":"13"}
+      ]
+    },
+    {
+      "CourseName": "Formal Languages and Automata Theory",
+      "CourseCode": "CSE3264",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 6,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"11","timeEnd":"13"},
+          {"day":5,"timeStart":"9","timeEnd":"10"}
+      ]
+    },
+    {
+      "CourseName": "Operations Research",
+      "CourseCode": "IE3235",
+      "Credit": 4,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 6,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"9","timeEnd":"11"},
+          {"day":2,"timeStart":"10","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Technical Comm. and Entrepreneurship",
+      "CourseCode": "COM2202",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 6,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":5,"timeStart":"9","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Summer Practice II",
+      "CourseCode": "CSE4000",
+      "Credit": 10,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 7,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0
+    },
+    {
+      "CourseName": "Computer Networks",
+      "CourseCode": "CSE4074",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 7,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"16","timeEnd":"18"},
+          {"day":4,"timeStart":"15","timeEnd":"16"}
+      ]
+    },
+    {
+      "CourseName": "Principles of Embedded System Design",
+      "CourseCode": "CSE4219",
+      "Credit": 6,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 7,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":4,"timeStart":"10","timeEnd":"11"},
+          {"day":5,"timeStart":"10","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Engineering Project I",
+      "CourseCode": "CSE4297",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 165,
+      "courseSemester": 7,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0
+    },
+    {
+      "CourseName": "Occupational Health and Safety I",
+      "CourseCode": "ISG121",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 7,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":6,"timeStart":"19","timeEnd":"21"}
+      ]
+    },
+    {
+      "CourseName": "Introduction to Machine Learning",
+      "CourseCode": "CSE4288",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 7,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"13","timeEnd":"15"},
+          {"day":4,"timeStart":"16","timeEnd":"17"}
+      ]
+    },
+    {
+      "CourseName": "Technical Elective - 1",
+      "CourseCode": "TExxx",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 7,
+      "courseType": "TExxx",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"12","timeEnd":"13"},
+          {"day":4,"timeStart":"12","timeEnd":"14"}
+      ]
+    },
+    {
+      "CourseName": "Engineering Project II",
+      "CourseCode": "CSE4298",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 8,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0
+    },
+    {
+      "CourseName": "Occupational Health and Safety II",
+      "CourseCode": "ISG122",
+      "Credit": 2,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 8,
+      "courseType": "Mandatory",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":6,"timeStart":"18","timeEnd":"20"}
+      ]
+    },
+    {
+      "CourseName": "Faculty Technical Electives",
+      "CourseCode": "FTExxx",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 8,
+      "courseType": "FTExxx",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":2,"timeStart":"11","timeEnd":"12"},
+          {"day":3,"timeStart":"10","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Non-Technical Elective - 2",
+      "CourseCode": "NTExxx",
+      "Credit": 3,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 8,
+      "courseType": "NTExxx",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"13","timeEnd":"15"}
+      ]
+    },
+    {
+      "CourseName": "Technical Elective - 2",
+      "CourseCode": "TExxx",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 8,
+      "courseType": "TExxx",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":3,"timeStart":"15","timeEnd":"16"},
+          {"day":4,"timeStart":"10","timeEnd":"12"}
+      ]
+    },
+    {
+      "CourseName": "Technical Elective - 3",
+      "CourseCode": "TExxx",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 8,
+      "courseType": "TExxx",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"9","timeEnd":"11"},
+          {"day":2,"timeStart":"10","timeEnd":"11"}
+      ]
+    },
+    {
+      "CourseName": "Technical Elective - 4",
+      "CourseCode": "TExxx",
+      "Credit": 5,
+      "PrerequisiteCourseCodes": [
+        ""
+      ],
+      "courseSessions": 1,
+      "requiredCredits": 0,
+      "courseSemester": 8,
+      "courseType": "TExxx",
+      "courseCurrentStudentNumber": 0,
+      "schedule": [
+          {"day":1,"timeStart":"13","timeEnd":"14"},
+          {"day":2,"timeStart":"14","timeEnd":"16"}
+      ]
+    }
+  ]
+}

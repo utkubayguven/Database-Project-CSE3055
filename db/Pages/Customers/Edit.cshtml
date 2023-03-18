@@ -1,0 +1,68 @@
+﻿@page
+@model db.Pages.Customers.EditModel
+@{
+}
+
+
+
+<br>
+<h2>Edit Customer</h2>
+
+@if (Model.errorMessage.Length > 0)
+{
+    <div class='alert alert-warning alert-dismissible fade show' role="alert">
+        <strong>@Model.errorMessage</strong>
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+}
+
+<form method="POST">
+    <input type="hidden" name="id" value="@Model.customerInfo.CustomerID">
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">First Name</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="firstname" value="@Model.customerInfo.CustomerFirstName" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Name</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="lastname" value="@Model.customerInfo.CustomerLastName" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Birth Date</label>
+        <div class="col-sm-6">
+            <input type="datetime-local" min="1950-06-07T00:00" max="2010-06-14T00:00" class="form-control" name="birth_date" value="@Model.customerInfo.BirthDate" placeholder="ex. 19.09.2000 00:00:00" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Gender</label>
+        <div class="col-sm-6">
+            <input type="text" class="form-control" name="gender" value="@Model.customerInfo.Gender" placeholder="F or M" />
+        </div>
+    </div>
+    <div class="row mb-3">
+        <label class="col-sm-3 col-form-label">Age</label>
+        <div class="col-sm-6">
+            <input type="number" class="form-control" name="age" value="@Model.customerInfo.Age" />
+        </div>
+    </div>
+
+    @if (Model.successMessage.Length > 0)
+    {
+        <div class='alert alert-success alert-dismissible fade show' role="alert">
+            <strong>@Model.successMessage</strong>
+            <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+        </div>
+    }
+
+    <div class="row mb-3">
+        <div class="offset-sm-3 col-sm-3 d-grid">
+            <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+        <div class="col-sm-3 d-grid">
+            <a class="btn btn-outline-primary" href="/" role="button">Cancel</a>
+        </div>
+    </div>
+</form>

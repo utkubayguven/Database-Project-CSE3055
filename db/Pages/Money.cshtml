@@ -1,0 +1,28 @@
+﻿@page
+@model db.Pages.MoneyModel
+@{
+}
+<br>
+<h2>List of Finance</h2>
+<a class='btn btn-primary btn-sm' href='/'>Finance</a>
+<table class="table">
+    <thead>
+        <tr>
+            <th>Assets</th>
+            <th>Taxes</th>
+            <th>Banks</th>
+            <th>CompanyCreditStatus</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model.listFinance)
+        {
+            <tr>
+                <td>@item.Assets</td>
+                <td>@item.Taxes</td>
+                <td>@item.Banks</td>
+                <td>@item.CompanyCreditStatus</td>
+            </tr>
+        }
+    </tbody>
+</table>
